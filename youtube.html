@@ -1,13 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Redirect</title>
-  <meta http-equiv="refresh" content="1; URL=https://www.youtube.com/channel/UC_xvvayVIaDgr5oKeTXhkUw/videos"
-</head>
-<body>
-  <center>
-    <h1>You are being redirected</h1>
-  </center>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Redirect</title>
+    <!--               CHANGE THE URL IF YOU WANT TO USE IT FOR YOUR SERVER -->
+    <meta http-equiv="refresh" content="1; URL=https://www.youtube.com/channel/UC_xvvayVIaDgr5oKeTXhkUw/videos">
+    <style>
+      div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        height: 100vh;
+      }
+      h1::before{
+        content: '🔗 ';
+      }
+      h1{
+        font-family: 'Courier New', Courier, monospace;
+        font-size:xx-large;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>You are being redirected</h1>
+    </div>
+  </body>
 </html>
